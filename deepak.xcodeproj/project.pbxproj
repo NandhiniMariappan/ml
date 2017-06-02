@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00889A1E1EDF090D00A7AA21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00889A1D1EDF090D00A7AA21 /* AppDelegate.swift */; };
+		00889A201EDF090D00A7AA21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00889A1F1EDF090D00A7AA21 /* ViewController.swift */; };
+		00889A231EDF090D00A7AA21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00889A211EDF090D00A7AA21 /* Main.storyboard */; };
+		00889A261EDF090D00A7AA21 /* deepak.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00889A241EDF090D00A7AA21 /* deepak.xcdatamodeld */; };
+		00889A281EDF090D00A7AA21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00889A271EDF090D00A7AA21 /* Assets.xcassets */; };
+		00889A2B1EDF090D00A7AA21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00889A291EDF090D00A7AA21 /* LaunchScreen.storyboard */; };
+		00889A361EDF090E00A7AA21 /* deepakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00889A351EDF090E00A7AA21 /* deepakTests.swift */; };
+		00889A411EDF090E00A7AA21 /* deepakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00889A401EDF090E00A7AA21 /* deepakUITests.swift */; };
+		0092BAD41EDFDF1900609C09 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0092BAD31EDFDF1900609C09 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00889A321EDF090E00A7AA21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00889A121EDF090D00A7AA21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00889A191EDF090D00A7AA21;
+			remoteInfo = deepak;
+		};
+		00889A3D1EDF090E00A7AA21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00889A121EDF090D00A7AA21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00889A191EDF090D00A7AA21;
+			remoteInfo = deepak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00889A1A1EDF090D00A7AA21 /* deepak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deepak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00889A1D1EDF090D00A7AA21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00889A1F1EDF090D00A7AA21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00889A221EDF090D00A7AA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00889A251EDF090D00A7AA21 /* deepak.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = deepak.xcdatamodel; sourceTree = "<group>"; };
+		00889A271EDF090D00A7AA21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00889A2A1EDF090D00A7AA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00889A2C1EDF090D00A7AA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00889A311EDF090E00A7AA21 /* deepakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deepakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00889A351EDF090E00A7AA21 /* deepakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deepakTests.swift; sourceTree = "<group>"; };
+		00889A371EDF090E00A7AA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00889A3C1EDF090E00A7AA21 /* deepakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deepakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00889A401EDF090E00A7AA21 /* deepakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deepakUITests.swift; sourceTree = "<group>"; };
+		00889A421EDF090E00A7AA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0092BAD31EDFDF1900609C09 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00889A171EDF090D00A7AA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00889A2E1EDF090E00A7AA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00889A391EDF090E00A7AA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00889A111EDF090D00A7AA21 = {
+			isa = PBXGroup;
+			children = (
+				00889A1C1EDF090D00A7AA21 /* deepak */,
+				00889A341EDF090E00A7AA21 /* deepakTests */,
+				00889A3F1EDF090E00A7AA21 /* deepakUITests */,
+				00889A1B1EDF090D00A7AA21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00889A1B1EDF090D00A7AA21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00889A1A1EDF090D00A7AA21 /* deepak.app */,
+				00889A311EDF090E00A7AA21 /* deepakTests.xctest */,
+				00889A3C1EDF090E00A7AA21 /* deepakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00889A1C1EDF090D00A7AA21 /* deepak */ = {
+			isa = PBXGroup;
+			children = (
+				00889A1D1EDF090D00A7AA21 /* AppDelegate.swift */,
+				00889A1F1EDF090D00A7AA21 /* ViewController.swift */,
+				00889A211EDF090D00A7AA21 /* Main.storyboard */,
+				0092BAD31EDFDF1900609C09 /* Podfile */,
+				00889A271EDF090D00A7AA21 /* Assets.xcassets */,
+				00889A291EDF090D00A7AA21 /* LaunchScreen.storyboard */,
+				00889A2C1EDF090D00A7AA21 /* Info.plist */,
+				00889A241EDF090D00A7AA21 /* deepak.xcdatamodeld */,
+			);
+			path = deepak;
+			sourceTree = "<group>";
+		};
+		00889A341EDF090E00A7AA21 /* deepakTests */ = {
+			isa = PBXGroup;
+			children = (
+				00889A351EDF090E00A7AA21 /* deepakTests.swift */,
+				00889A371EDF090E00A7AA21 /* Info.plist */,
+			);
+			path = deepakTests;
+			sourceTree = "<group>";
+		};
+		00889A3F1EDF090E00A7AA21 /* deepakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00889A401EDF090E00A7AA21 /* deepakUITests.swift */,
+				00889A421EDF090E00A7AA21 /* Info.plist */,
+			);
+			path = deepakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00889A191EDF090D00A7AA21 /* deepak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00889A451EDF090E00A7AA21 /* Build configuration list for PBXNativeTarget "deepak" */;
+			buildPhases = (
+				00889A161EDF090D00A7AA21 /* Sources */,
+				00889A171EDF090D00A7AA21 /* Frameworks */,
+				00889A181EDF090D00A7AA21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = deepak;
+			productName = deepak;
+			productReference = 00889A1A1EDF090D00A7AA21 /* deepak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00889A301EDF090E00A7AA21 /* deepakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00889A481EDF090E00A7AA21 /* Build configuration list for PBXNativeTarget "deepakTests" */;
+			buildPhases = (
+				00889A2D1EDF090E00A7AA21 /* Sources */,
+				00889A2E1EDF090E00A7AA21 /* Frameworks */,
+				00889A2F1EDF090E00A7AA21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00889A331EDF090E00A7AA21 /* PBXTargetDependency */,
+			);
+			name = deepakTests;
+			productName = deepakTests;
+			productReference = 00889A311EDF090E00A7AA21 /* deepakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00889A3B1EDF090E00A7AA21 /* deepakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00889A4B1EDF090E00A7AA21 /* Build configuration list for PBXNativeTarget "deepakUITests" */;
+			buildPhases = (
+				00889A381EDF090E00A7AA21 /* Sources */,
+				00889A391EDF090E00A7AA21 /* Frameworks */,
+				00889A3A1EDF090E00A7AA21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00889A3E1EDF090E00A7AA21 /* PBXTargetDependency */,
+			);
+			name = deepakUITests;
+			productName = deepakUITests;
+			productReference = 00889A3C1EDF090E00A7AA21 /* deepakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00889A121EDF090D00A7AA21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Adyog;
+				TargetAttributes = {
+					00889A191EDF090D00A7AA21 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5SW6C3LUKF;
+						ProvisioningStyle = Automatic;
+					};
+					00889A301EDF090E00A7AA21 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00889A191EDF090D00A7AA21;
+					};
+					00889A3B1EDF090E00A7AA21 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00889A191EDF090D00A7AA21;
+					};
+				};
+			};
+			buildConfigurationList = 00889A151EDF090D00A7AA21 /* Build configuration list for PBXProject "deepak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00889A111EDF090D00A7AA21;
+			productRefGroup = 00889A1B1EDF090D00A7AA21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00889A191EDF090D00A7AA21 /* deepak */,
+				00889A301EDF090E00A7AA21 /* deepakTests */,
+				00889A3B1EDF090E00A7AA21 /* deepakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00889A181EDF090D00A7AA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00889A2B1EDF090D00A7AA21 /* LaunchScreen.storyboard in Resources */,
+				00889A281EDF090D00A7AA21 /* Assets.xcassets in Resources */,
+				0092BAD41EDFDF1900609C09 /* Podfile in Resources */,
+				00889A231EDF090D00A7AA21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00889A2F1EDF090E00A7AA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00889A3A1EDF090E00A7AA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00889A161EDF090D00A7AA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00889A201EDF090D00A7AA21 /* ViewController.swift in Sources */,
+				00889A261EDF090D00A7AA21 /* deepak.xcdatamodeld in Sources */,
+				00889A1E1EDF090D00A7AA21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00889A2D1EDF090E00A7AA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00889A361EDF090E00A7AA21 /* deepakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00889A381EDF090E00A7AA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00889A411EDF090E00A7AA21 /* deepakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00889A331EDF090E00A7AA21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00889A191EDF090D00A7AA21 /* deepak */;
+			targetProxy = 00889A321EDF090E00A7AA21 /* PBXContainerItemProxy */;
+		};
+		00889A3E1EDF090E00A7AA21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00889A191EDF090D00A7AA21 /* deepak */;
+			targetProxy = 00889A3D1EDF090E00A7AA21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00889A211EDF090D00A7AA21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00889A221EDF090D00A7AA21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00889A291EDF090D00A7AA21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00889A2A1EDF090D00A7AA21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00889A431EDF090E00A7AA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00889A441EDF090E00A7AA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00889A461EDF090E00A7AA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5SW6C3LUKF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = deepak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adyog.com.deepak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		00889A471EDF090E00A7AA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5SW6C3LUKF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = deepak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adyog.com.deepak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		00889A491EDF090E00A7AA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = deepakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adyog.com.deepakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/deepak.app/deepak";
+			};
+			name = Debug;
+		};
+		00889A4A1EDF090E00A7AA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = deepakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adyog.com.deepakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/deepak.app/deepak";
+			};
+			name = Release;
+		};
+		00889A4C1EDF090E00A7AA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = deepakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adyog.com.deepakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = deepak;
+			};
+			name = Debug;
+		};
+		00889A4D1EDF090E00A7AA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = deepakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adyog.com.deepakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = deepak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00889A151EDF090D00A7AA21 /* Build configuration list for PBXProject "deepak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00889A431EDF090E00A7AA21 /* Debug */,
+				00889A441EDF090E00A7AA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00889A451EDF090E00A7AA21 /* Build configuration list for PBXNativeTarget "deepak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00889A461EDF090E00A7AA21 /* Debug */,
+				00889A471EDF090E00A7AA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00889A481EDF090E00A7AA21 /* Build configuration list for PBXNativeTarget "deepakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00889A491EDF090E00A7AA21 /* Debug */,
+				00889A4A1EDF090E00A7AA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00889A4B1EDF090E00A7AA21 /* Build configuration list for PBXNativeTarget "deepakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00889A4C1EDF090E00A7AA21 /* Debug */,
+				00889A4D1EDF090E00A7AA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00889A241EDF090D00A7AA21 /* deepak.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00889A251EDF090D00A7AA21 /* deepak.xcdatamodel */,
+			);
+			currentVersion = 00889A251EDF090D00A7AA21 /* deepak.xcdatamodel */;
+			path = deepak.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00889A121EDF090D00A7AA21 /* Project object */;
+}
